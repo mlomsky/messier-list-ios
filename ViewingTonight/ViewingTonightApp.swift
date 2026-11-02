@@ -1,17 +1,13 @@
-//
-//  ViewingTonightApp.swift
-//  ViewingTonight
-//
-//  Created by WAA Admin on 11/1/26.
-//
-
 import SwiftUI
 
 @main
 struct ViewingTonightApp: App {
+    @State private var model = SkyModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(model)
         }
     }
 }

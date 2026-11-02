@@ -1,0 +1,9 @@
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+
+# Python helper scripts
+__pycache__/
